@@ -1,0 +1,6 @@
+.idea/
+vendor/
+gitignore/
+config/config.json
+App/views/temp
+public/uploads/
