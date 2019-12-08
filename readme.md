@@ -1,14 +1,4 @@
-# Mini CMS - Modern
-
-The point of this project is to practice back-end web developement with PHP, by creating a basic CMS with __modern__ practices:
-- OOP and ideally no strictly procedural code (ie: no global helper functions),
-- MVC, plus the single `index.php` front controller and all other `.php` files outside of the web root ,
-- use some of the [PHP Standard Components](https://github.com/florentpoujol/PHP-Standard-Components) (that I also created myself),
-- no framework or non-native libraries (except for my Standard Components of course, as well as Markdown, PHP Mailer and PHPUnit)
-
-An online demo version is available at [https://minicmsmodern.florentpoujol.fr](https://minicmsmodern.florentpoujol.fr).
-
-_See also [MINI CMS - Old-School - Vanilla](https://github.com/florentpoujol/minicms-osv), the same kind of project but completely procedural, without specific organisation of files and no libraries._
+Thanks to Florent POUJOL for making this. This is a broken version of the cms to learn students testing.
 
 ## Install
 
@@ -25,8 +15,6 @@ If you have any unexpected errors, or something doesn't seem to go right during 
 You will be redirected to the login page once the installation is complete.
 
 If you need to update the configuration, you can either access the Config page via the admin menu (only admin users can do that), or directly edit the `config/config.json` file.
-
-To run the tests, edit the database information in the `tests\testsConfig.json` file, then run `php vendor/bin/phpunit` from the root folder.
 
 ## General features
 
